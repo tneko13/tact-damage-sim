@@ -4,7 +4,23 @@
   import Counter from './lib/Counter.svelte'
 </script>
 
+<style>
+  .deploy-banner {
+    background: #ffeb3b;
+    color: #111;
+    padding: 10px 12px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+</style>
+
 <main>
+  <div class="deploy-banner">
+    Deployment test — updated 2025-10-26. If you see this, your push was deployed to GitHub Pages.
+  </div>
+
   <div>
     <a href="https://vite.dev" target="_blank" rel="noreferrer">
       <img src={viteLogo} class="logo" alt="Vite Logo" />
